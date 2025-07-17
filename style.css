@@ -167,15 +167,22 @@ padding: 50px 60px;
     font-size: 30px;
     font-weight: bold;
     list-style: 1px;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
 .user-box h4{
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 .user-box h6{
     margin-top: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.user-box p{
+    font-family: sans-serif;
+    margin-top: 20px;
 }
 .first-review{
     background: white;
@@ -197,4 +204,38 @@ padding: 50px 60px;
     
     padding: 20px 30px;
     
+}
+
+/*highlights part */
+.highlights{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 0px;
+}
+.highlight-content{
+    text-align: center;
+}
+.highlight-content h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.highlight-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.highlight-content .btn{
+    margin-top: 20px;
+}
+.high-img{
+    max-width: 840px;
+    max-height: 365px;
+    border-radius: 30px;
+    margin-top: 20px;
 }
