@@ -47,7 +47,7 @@ header {
 }
 
 .btn {
-    background-color: #5c6ac4;
+    background-color: rgb(78, 71, 255);
     color: #fff;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -146,7 +146,7 @@ padding: 50px 60px;
     text-align: center;
 }
 .user-content h2{
-   color: #5c6ac4;
+   color: rgb(78, 71, 255);
    font-size: 80px;
    font-family: 'Times New Roman', Times, serif;
 
@@ -303,4 +303,46 @@ input[ type="submit"]:hover{
 }
 .input label{
     font-size: 20px;
+}
+
+/*footer style */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    background-color: white;
+    padding: 130px 0px;
+}
+.foot-text{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.foot-text h2{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: rgb(78, 71, 255);
+}
+.foot-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(137, 135, 161);
+}
+.nav-footer{
+    display: flex;
+    flex-direction: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-footer li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    color: rgb(137, 135, 161);
 }
