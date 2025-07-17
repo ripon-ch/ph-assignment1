@@ -336,6 +336,7 @@ input[ type="submit"]:hover{
     font-weight: 400;
     font-family: sans-serif;
     color: rgb(137, 135, 161);
+    margin-top: 15px;
 }
 .nav-footer{
     display: flex;
