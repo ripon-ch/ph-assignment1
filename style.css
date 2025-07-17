@@ -27,7 +27,7 @@ body{
 
 /* Nav style*/
 header {
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(./images/Hero-bg.png);
     background-position: center;
     background-size: cover;
     max-width: 1440px;
