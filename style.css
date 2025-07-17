@@ -178,12 +178,12 @@ padding: 50px 60px;
 
 .user-box h4{
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: sans-serif;
 }
 .user-box h6{
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 6px;
     font-family: sans-serif;
 }
 .user-box p{
@@ -232,7 +232,7 @@ padding: 50px 60px;
     font-family: sans-serif;
 }
 .highlight-content p{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 20px;
 }
@@ -332,7 +332,7 @@ input[ type="submit"]:hover{
     color: orangered;
 }
 .foot-text p{
-    font-size: 10px;
+    font-size: 6px;
     font-weight: 400;
     font-family: sans-serif;
     color: rgb(137, 135, 161);
