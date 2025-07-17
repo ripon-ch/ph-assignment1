@@ -51,11 +51,14 @@ header {
     color: #fff;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
+    border: none;
     border-radius: 6px;
     display: inline-block;
     margin-top: 1rem;
     font-size: 24px;
     font-weight: 600;
+    transition: 0.4 ease;
+    
 }
 /*hero section*/
 
@@ -67,6 +70,9 @@ header {
     font-size: 2rem;
     margin-top: 2rem;
     line-height: 1.4;
+}
+.btn:hover{
+    background: orangered;
 }
 
 /*banner sections*/
@@ -232,10 +238,66 @@ padding: 50px 60px;
 }
 .highlight-content .btn{
     margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
+
 .high-img{
     max-width: 840px;
     max-height: 365px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+/* Input */
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    gap: 30px;
+}
+
+.input-box h3{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+input[type="text"], select{
+    max-width: 100℅;
+    max-height: 40px;
+    padding: 20px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+input[type="email"], select{
+    max-width: 100℅;
+    max-height: 40px;
+    padding: 20px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+textarea{
+    max-width: 100℅;
+    max-height: 135px;
+    padding: 20px 32px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[ type="submit"]{
+    width: 100℅;
+    padding: 20px 122px;
+    display: inline-block;
+}
+input[ type="submit"]:hover{
+    background-color: orangered;
+}
+.input label{
+    font-size: 18px;
 }
