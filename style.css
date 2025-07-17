@@ -91,7 +91,7 @@ header {
     letter-spacing: 1;
 }
 .banner-text p{
-    font-size: 20px;
+    font-size: 16px;
 font-weight: 400;
 margin-top: 5px;
 
@@ -150,6 +150,9 @@ padding: 50px 60px;
    font-size: 80px;
    font-family: 'Times New Roman', Times, serif;
 
+}
+.user-content p{
+    font-size: 12px;
 }
 
 /* user review part*/
